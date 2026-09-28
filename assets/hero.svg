@@ -1,4 +1,4 @@
-<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Elahe, software developer and AI automation builder, growing in a green garden">
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Elahe, AI automation builder, growing a green garden">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#052e16"/>
@@ -11,29 +11,65 @@
     </radialGradient>
     <clipPath id="round"><rect width="900" height="280" rx="24"/></clipPath>
 
-    <g id="leaf">
-      <path d="M0 0 C 14 -26 52 -40 92 -30 C 82 -2 44 14 0 0 Z"/>
-      <path d="M0 0 C 30 -10 60 -18 86 -28" stroke="#052e16" stroke-width="1.6" fill="none" opacity="0.45"/>
-    </g>
+  <g id="lf">
+    <path d="M0 0 L3.5 0" stroke="#4ade80" stroke-width="1.1" stroke-linecap="round"/>
+    <path d="M3.5 0 C 8.5 -5.2 16 -5.2 21 0 C 16 5.2 8.5 5.2 3.5 0 Z"/>
+    <path d="M5 0 C 9.5 -1 15 -1 19 0" stroke="#052e16" stroke-width="0.9" fill="none" opacity="0.35"/>
+  </g>
 
-    <g id="plant">
-      <path d="M70 290 C 58 230 112 176 92 78" stroke="#86efac" stroke-width="4" fill="none" stroke-linecap="round"/>
-      <g transform="translate(72 236) rotate(-25) scale(0.95)">
-        <g><animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="5.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><use href="#leaf" fill="#4ade80"/></g>
-      </g>
-      <g transform="translate(76 214) rotate(-158) scale(-0.8 0.8)">
-        <g><animateTransform attributeName="transform" type="rotate" values="3;-5;3" dur="6.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><use href="#leaf" fill="#22c55e"/></g>
-      </g>
-      <g transform="translate(86 176) rotate(-32) scale(0.85)">
-        <g><animateTransform attributeName="transform" type="rotate" values="-5;5;-5" dur="5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><use href="#leaf" fill="#86efac"/></g>
-      </g>
-      <g transform="translate(98 138) rotate(-150) scale(-0.7 0.7)">
-        <g><animateTransform attributeName="transform" type="rotate" values="4;-4;4" dur="6.8s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><use href="#leaf" fill="#4ade80"/></g>
-      </g>
-      <g transform="translate(96 104) rotate(-45) scale(0.6)">
-        <g><animateTransform attributeName="transform" type="rotate" values="-6;6;-6" dur="4.8s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><use href="#leaf" fill="#bbf7d0"/></g>
-      </g>
+  <g id="plant">
+    <g>
+      <path d="M30 296 C 118 238 34 112 148 36" stroke="#4ade80" stroke-width="2.4" fill="none" stroke-linecap="round" opacity="0.85"/>
+      <g transform="translate(44.1 284.9) rotate(12.3) scale(1.07)"><use href="#lf" fill="#22c55e"/></g>
+      <g transform="translate(60.3 263.8) rotate(-110.2) scale(0.99)"><use href="#lf" fill="#22c55e"/></g>
+      <g transform="translate(67.7 247.3) rotate(-23.0) scale(0.84)"><use href="#lf" fill="#16a34a"/></g>
+      <g transform="translate(73.1 226.7) rotate(-136.4) scale(0.87)"><use href="#lf" fill="#22c55e"/></g>
+      <g transform="translate(75.6 211.3) rotate(-25.6) scale(0.75)"><use href="#lf" fill="#16a34a"/></g>
+      <g transform="translate(76.6 202.4) rotate(-130.7) scale(0.88)"><g><animateTransform attributeName="transform" type="rotate" values="0;2.0;0;-1.4;0" dur="2.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.25;0.5;0.75;1"/><use href="#lf" fill="#22c55e"/></g></g>
+      <g transform="translate(79.4 170.9) rotate(-35.3) scale(0.70)"><use href="#lf" fill="#86efac"/></g>
+      <g transform="translate(81.9 148.1) rotate(-136.4) scale(0.67)"><use href="#lf" fill="#4ade80"/></g>
+      <g transform="translate(86.6 123.2) rotate(-17.4) scale(0.64)"><use href="#lf" fill="#4ade80"/></g>
+      <g transform="translate(87.8 118.4) rotate(-130.8) scale(0.59)"><use href="#lf" fill="#4ade80"/></g>
+      <g transform="translate(98.3 90.7) rotate(-0.2) scale(0.66)"><g><animateTransform attributeName="transform" type="rotate" values="0;2.2;0;-1.5;0" dur="3.1s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.25;0.5;0.75;1"/><use href="#lf" fill="#4ade80"/></g></g>
+      <g transform="translate(119.4 60.1) rotate(-100.5) scale(0.49)"><g><animateTransform attributeName="transform" type="rotate" values="0;2.0;0;-1.4;0" dur="4.3s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.25;0.5;0.75;1"/><use href="#lf" fill="#4ade80"/></g></g>
+      <g transform="translate(126.0 53.5) rotate(2.7) scale(0.53)"><g><animateTransform attributeName="transform" type="rotate" values="0;1.5;0;-1.1;0" dur="3.1s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.25;0.5;0.75;1"/><use href="#lf" fill="#4ade80"/></g></g>
+      <animateTransform attributeName="transform" type="rotate" values="0 30 296;1.6 30 296;0 30 296;-1.1 30 296;0 30 296" keyTimes="0;0.28;0.55;0.8;1" dur="7.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
     </g>
+    <g>
+      <path d="M8 268 C 26 205 74 128 58 52" stroke="#4ade80" stroke-width="1.7" fill="none" stroke-linecap="round" opacity="0.85"/>
+      <g transform="translate(11.5 256.5) rotate(-17.0) scale(0.81)"><use href="#lf" fill="#16a34a"/></g>
+      <g transform="translate(17.7 239.1) rotate(-128.8) scale(0.68)"><use href="#lf" fill="#22c55e"/></g>
+      <g transform="translate(27.5 213.7) rotate(-4.7) scale(0.62)"><use href="#lf" fill="#22c55e"/></g>
+      <g transform="translate(39.3 183.0) rotate(-119.5) scale(0.64)"><use href="#lf" fill="#22c55e"/></g>
+      <g transform="translate(43.7 171.0) rotate(-7.0) scale(0.59)"><g><animateTransform attributeName="transform" type="rotate" values="0;2.7;0;-1.9;0" dur="4.3s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.25;0.5;0.75;1"/><use href="#lf" fill="#86efac"/></g></g>
+      <g transform="translate(52.6 142.3) rotate(-122.3) scale(0.55)"><g><animateTransform attributeName="transform" type="rotate" values="0;2.1;0;-1.4;0" dur="4.3s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.25;0.5;0.75;1"/><use href="#lf" fill="#4ade80"/></g></g>
+      <g transform="translate(58.3 116.5) rotate(-17.2) scale(0.55)"><g><animateTransform attributeName="transform" type="rotate" values="0;1.8;0;-1.2;0" dur="2.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.25;0.5;0.75;1"/><use href="#lf" fill="#4ade80"/></g></g>
+      <g transform="translate(60.8 96.3) rotate(-148.3) scale(0.56)"><use href="#lf" fill="#4ade80"/></g>
+      <g transform="translate(60.7 71.1) rotate(-37.1) scale(0.49)"><use href="#lf" fill="#4ade80"/></g>
+      <animateTransform attributeName="transform" type="rotate" values="0 8 268;2.0 8 268;0 8 268;-1.4 8 268;0 8 268" keyTimes="0;0.28;0.55;0.8;1" dur="6.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </g>
+    <g>
+      <path d="M102 299 C 140 262 112 216 160 172" stroke="#4ade80" stroke-width="1.4" fill="none" stroke-linecap="round" opacity="0.85"/>
+      <g transform="translate(110.5 289.2) rotate(2.5) scale(0.66)"><g><animateTransform attributeName="transform" type="rotate" values="0;1.9;0;-1.3;0" dur="4.3s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.25;0.5;0.75;1"/><use href="#lf" fill="#16a34a"/></g></g>
+      <g transform="translate(119.1 273.3) rotate(-119.3) scale(0.69)"><use href="#lf" fill="#22c55e"/></g>
+      <g transform="translate(123.9 256.7) rotate(-15.1) scale(0.67)"><g><animateTransform attributeName="transform" type="rotate" values="0;1.9;0;-1.3;0" dur="3.1s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.25;0.5;0.75;1"/><use href="#lf" fill="#16a34a"/></g></g>
+      <g transform="translate(127.9 234.3) rotate(-129.3) scale(0.49)"><use href="#lf" fill="#86efac"/></g>
+      <g transform="translate(130.7 221.2) rotate(-28.9) scale(0.50)"><use href="#lf" fill="#4ade80"/></g>
+      <g transform="translate(137.1 202.9) rotate(-117.9) scale(0.53)"><use href="#lf" fill="#86efac"/></g>
+      <g transform="translate(153.4 178.6) rotate(9.2) scale(0.40)"><use href="#lf" fill="#4ade80"/></g>
+      <animateTransform attributeName="transform" type="rotate" values="0 102 299;1.3 102 299;0 102 299;-0.9 102 299;0 102 299" keyTimes="0;0.28;0.55;0.8;1" dur="5.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </g>
+    <g>
+      <path d="M3 300 C 44 266 16 218 54 182" stroke="#4ade80" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.85"/>
+      <g transform="translate(9.7 293.7) rotate(5.5) scale(0.61)"><g><animateTransform attributeName="transform" type="rotate" values="0;2.2;0;-1.6;0" dur="3.1s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.25;0.5;0.75;1"/><use href="#lf" fill="#16a34a"/></g></g>
+      <g transform="translate(23.0 272.0) rotate(-121.2) scale(0.65)"><use href="#lf" fill="#16a34a"/></g>
+      <g transform="translate(27.8 253.8) rotate(-33.1) scale(0.60)"><use href="#lf" fill="#22c55e"/></g>
+      <g transform="translate(31.6 228.2) rotate(-142.9) scale(0.47)"><use href="#lf" fill="#4ade80"/></g>
+      <g transform="translate(35.2 212.7) rotate(-11.5) scale(0.50)"><use href="#lf" fill="#4ade80"/></g>
+      <g transform="translate(48.3 188.0) rotate(-107.3) scale(0.38)"><g><animateTransform attributeName="transform" type="rotate" values="0;1.6;0;-1.1;0" dur="3.1s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.25;0.5;0.75;1"/><use href="#lf" fill="#4ade80"/></g></g>
+      <animateTransform attributeName="transform" type="rotate" values="0 3 300;1.8 3 300;0 3 300;-1.3 3 300;0 3 300" keyTimes="0;0.28;0.55;0.8;1" dur="6.9s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </g>
+  </g>
   </defs>
 
   <g clip-path="url(#round)">
@@ -46,7 +82,7 @@
       <animate attributeName="opacity" values="0.45;1;0.45" dur="7s" repeatCount="indefinite"/>
     </ellipse>
 
-    <!-- plants on both sides -->
+    <!-- foliage on both sides -->
     <use href="#plant"/>
     <use href="#plant" transform="translate(900 0) scale(-1 1)"/>
 
@@ -70,7 +106,7 @@
     <text x="450" y="130" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="60" font-weight="700" fill="#f0fdf4">Elahe
       <animate attributeName="opacity" values="0;1" dur="1.6s" fill="freeze"/>
     </text>
-    <text x="450" y="171" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#bbf7d0">Software developer &#183; AI automation &#183; Web
+    <text x="450" y="171" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#bbf7d0">AI Automation &#183; n8n Workflows &#183; Agents &amp; MCP
       <animate attributeName="opacity" values="0;1" dur="2s" begin="0.6s" fill="freeze"/>
     </text>
     <text x="450" y="206" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" fill="#86efac">growing one small commit at a time
