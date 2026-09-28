@@ -1,0 +1,12 @@
+<svg width="900" height="50" viewBox="0 0 900 50" xmlns="http://www.w3.org/2000/svg" role="presentation">
+  <path d="M0 25 C 100 3 200 47 300 25 S 500 3 600 25 S 800 47 900 25" stroke="#22c55e" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="960" stroke-dashoffset="960">
+    <animate attributeName="stroke-dashoffset" values="960;0;0;960" keyTimes="0;0.5;0.88;1" dur="10s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0 0 1 1;0.4 0 0.2 1"/>
+  </path>
+  <g fill="#4ade80">
+    <ellipse cx="150" cy="14" rx="9" ry="4.5" transform="rotate(-30 150 14)"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.12;0.22;0.88;1" dur="10s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="300" cy="36" rx="9" ry="4.5" transform="rotate(30 300 36)"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.22;0.32;0.88;1" dur="10s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="450" cy="12" rx="9" ry="4.5" transform="rotate(-25 450 12)"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3;0.4;0.88;1" dur="10s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="600" cy="36" rx="9" ry="4.5" transform="rotate(30 600 36)"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4;0.5;0.88;1" dur="10s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="750" cy="14" rx="9" ry="4.5" transform="rotate(-30 750 14)"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.46;0.56;0.88;1" dur="10s" repeatCount="indefinite"/></ellipse>
+  </g>
+</svg>

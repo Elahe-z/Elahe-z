@@ -1,0 +1,80 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Elahe, software developer and AI automation builder, growing in a green garden">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#052e16"/>
+      <stop offset="0.55" stop-color="#14532d"/>
+      <stop offset="1" stop-color="#166534"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#86efac" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#86efac" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="round"><rect width="900" height="280" rx="24"/></clipPath>
+
+    <g id="leaf">
+      <path d="M0 0 C 14 -26 52 -40 92 -30 C 82 -2 44 14 0 0 Z"/>
+      <path d="M0 0 C 30 -10 60 -18 86 -28" stroke="#052e16" stroke-width="1.6" fill="none" opacity="0.45"/>
+    </g>
+
+    <g id="plant">
+      <path d="M70 290 C 58 230 112 176 92 78" stroke="#86efac" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <g transform="translate(72 236) rotate(-25) scale(0.95)">
+        <g><animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="5.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><use href="#leaf" fill="#4ade80"/></g>
+      </g>
+      <g transform="translate(76 214) rotate(-158) scale(-0.8 0.8)">
+        <g><animateTransform attributeName="transform" type="rotate" values="3;-5;3" dur="6.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><use href="#leaf" fill="#22c55e"/></g>
+      </g>
+      <g transform="translate(86 176) rotate(-32) scale(0.85)">
+        <g><animateTransform attributeName="transform" type="rotate" values="-5;5;-5" dur="5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><use href="#leaf" fill="#86efac"/></g>
+      </g>
+      <g transform="translate(98 138) rotate(-150) scale(-0.7 0.7)">
+        <g><animateTransform attributeName="transform" type="rotate" values="4;-4;4" dur="6.8s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><use href="#leaf" fill="#4ade80"/></g>
+      </g>
+      <g transform="translate(96 104) rotate(-45) scale(0.6)">
+        <g><animateTransform attributeName="transform" type="rotate" values="-6;6;-6" dur="4.8s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><use href="#leaf" fill="#bbf7d0"/></g>
+      </g>
+    </g>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="900" height="280" fill="url(#bg)"/>
+
+    <!-- breathing glow -->
+    <ellipse cx="450" cy="135" rx="320" ry="110" fill="url(#glow)">
+      <animate attributeName="rx" values="300;370;300" dur="7s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+      <animate attributeName="ry" values="100;135;100" dur="7s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="7s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- plants on both sides -->
+    <use href="#plant"/>
+    <use href="#plant" transform="translate(900 0) scale(-1 1)"/>
+
+    <!-- soft moving ground -->
+    <path fill="#052e16" opacity="0.6" d="M0 252 C 150 232 300 272 450 252 S 750 232 900 252 V280 H0 Z">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite" values="M0 252 C 150 232 300 272 450 252 S 750 232 900 252 V280 H0 Z;M0 256 C 150 274 300 234 450 256 S 750 274 900 256 V280 H0 Z;M0 252 C 150 232 300 272 450 252 S 750 232 900 252 V280 H0 Z"/>
+    </path>
+
+    <!-- fireflies -->
+    <g fill="#d9f99d">
+      <circle cx="210" cy="90" r="2.6"><animate attributeName="opacity" values="0;1;0" dur="3.4s" repeatCount="indefinite"/><animate attributeName="cy" values="90;72;90" dur="3.4s" repeatCount="indefinite"/></circle>
+      <circle cx="300" cy="210" r="2.2"><animate attributeName="opacity" values="0;1;0" dur="4.1s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="cy" values="210;190;210" dur="4.1s" begin="0.8s" repeatCount="indefinite"/></circle>
+      <circle cx="380" cy="55" r="2"><animate attributeName="opacity" values="0;1;0" dur="3.9s" begin="1.6s" repeatCount="indefinite"/><animate attributeName="cy" values="55;40;55" dur="3.9s" begin="1.6s" repeatCount="indefinite"/></circle>
+      <circle cx="560" cy="225" r="2.4"><animate attributeName="opacity" values="0;1;0" dur="3.6s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="cy" values="225;205;225" dur="3.6s" begin="0.4s" repeatCount="indefinite"/></circle>
+      <circle cx="640" cy="80" r="2.6"><animate attributeName="opacity" values="0;1;0" dur="4.4s" begin="2s" repeatCount="indefinite"/><animate attributeName="cy" values="80;62;80" dur="4.4s" begin="2s" repeatCount="indefinite"/></circle>
+      <circle cx="700" cy="170" r="2"><animate attributeName="opacity" values="0;1;0" dur="3.2s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="cy" values="170;152;170" dur="3.2s" begin="1.2s" repeatCount="indefinite"/></circle>
+      <circle cx="250" cy="150" r="1.8"><animate attributeName="opacity" values="0;1;0" dur="4.8s" begin="2.6s" repeatCount="indefinite"/><animate attributeName="cy" values="150;134;150" dur="4.8s" begin="2.6s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- text -->
+    <text x="450" y="130" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="60" font-weight="700" fill="#f0fdf4">Elahe
+      <animate attributeName="opacity" values="0;1" dur="1.6s" fill="freeze"/>
+    </text>
+    <text x="450" y="171" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#bbf7d0">Software developer &#183; AI automation &#183; Web
+      <animate attributeName="opacity" values="0;1" dur="2s" begin="0.6s" fill="freeze"/>
+    </text>
+    <text x="450" y="206" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" fill="#86efac">growing one small commit at a time
+      <animate attributeName="opacity" values="0;1" dur="2s" begin="1.2s" fill="freeze"/>
+    </text>
+  </g>
+</svg>
